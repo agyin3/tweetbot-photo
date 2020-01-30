@@ -22,7 +22,7 @@ tweetBot.get('search/tweets', params,  (err, data, res) => {
                 if(!err){
                     console.log(`Retweet successful`)
                 }else{
-                    console.log(err)
+                    console.log(err.message)
                 }
             })
         }
@@ -39,7 +39,7 @@ tweetBot.get('search/tweets', favParams,  (err, data, res) => {
                 if(!err){
                     console.log(`Favorite successful`)
                 }else{
-                    console.log(err)
+                    console.log(err.message)
                 }
             })
         }
