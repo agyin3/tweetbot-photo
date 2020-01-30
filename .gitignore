@@ -1,0 +1,7 @@
+# DEPENDENCY MODULES 
+
+node_modules
+
+#IGNORE ENV FILES
+
+.env

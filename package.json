@@ -1,0 +1,17 @@
+{
+  "name": "tweetbot",
+  "version": "1.0.0",
+  "description": "Twitter bot that retweets nature photography",
+  "main": "bot.js",
+  "scripts": {
+    "test": "test",
+    "start": "node bot.js"
+  },
+  "author": "Buddy Agyin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twit": "^2.2.11",
+    "twitter": "^1.7.1"
+  }
+}
